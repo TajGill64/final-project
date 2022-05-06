@@ -4,13 +4,26 @@
 }
 
 nav{
-    background: #14144f;
+    background: #132554;
     width: 100%;
     height: 100px;
+    
 
 }
 a{
     color: white;
+    margin-right: 10px;
     float: right;
-    margin-right: 5px;
 }
+img{
+    float: left;
+}
+a.button{
+    color: white;
+    padding: 0 5 10 15;
+
+}
+a.button:visited{
+    color: black;
+}
+
