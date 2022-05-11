@@ -1,21 +1,45 @@
+/*Basic stuff*/
+
 *{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    background-color: linear-gradient(top, #E9ECF8);
 }
+
 hr{
     background-color: white;
     
 }
 header{
-    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+
     
 }
+/*My main div used to mix my header and image*/
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/*My header in the header image*/
+.top-right{
+    position: absolute;
+    top: 50px;
+    right: 16px;
+    font-size: 300%;
+    color: #132554;
+    
+}
+/* Start of Nav Bar*/
 
 nav{
     background: #00242C;
     width: 100%;
     height: 60px;
     margin-top: 0px;
+    position: sticky;
 }
 nav img{
     float: left;
@@ -52,22 +76,9 @@ a:hover{
     padding-right: 0px;
     padding-top: 20px;
 }
+/*End of nav bar*/
 
-/*My main div used to mix my header and image*/
-.container{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-/*My header in the header image*/
-.top-right{
-    position: absolute;
-    top: 50px;
-    right: 16px;
-    font-size: 300%;
-    color: #132554;
-    
-}
+/* Basically my paragraph in my home page.*/
 .writing{
     background-color: #E9ECF8;
     width: 400px;
@@ -80,22 +91,24 @@ a:hover{
     float: left;
     font-size: x-large;
 }
+body{
+    background-color: #E9ECF8;
+}
+/* More indepth modification of my writing*/
 p{
     color: black;
     padding-left: 25px;
     padding-bottom: 200px;
     padding-top: 100px;
 }
+/* Basically all of my pictures on my home page*/
 .heropic{
     background-color: #E9ECF8;
     float: right;
-    padding-left: 400px;
+    padding-left: 100px;
     float: left;
     padding-right: 100px;
  
-}
-.firstname{
-    color: black;
 }
 .home-middle{
     background-color: #E9ECF8;
@@ -107,6 +120,12 @@ p{
 h2{
     color: black;
     font-size: 230%;
+}
+
+
+/* The start of my footer*/
+.firstname{
+    color: black;
 }
 .home-video{
     background-color: #9A9FB5;
@@ -155,24 +174,59 @@ footer{
     
 }
 .icons{
-    background-color: #E9ECF8;
+    background-image: linear-gradient(to bottom, #EAEDF9, #313A5D );
     width: 100%;
     height: 80px;
     float: left;
     color: black;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     padding: 20px;
 }
+/*End of footer*/
+
+/* Start of my About page*/
 header h1 div img{
     width: 100%;
     height: 500px;
     
 
 }
-.about-writing{
-    width: 100%;
-    height: 700px;
-    float: top;
-    background-color: #E9ECF8;
+.about-writting{
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-image: linear-gradient(to bottom, #EAEDF9, #313A5D );
+    padding-left: 5px;
 }
+.about-author{
+    width: 49%;
+    height: 600px;
+    background-color: #9A9FB5;
+    float: left;
+}
+h3{
+    text-align: center;
+}
+footer div i{
+    color: #313A5D;
+}
+/*End of my about page*/
+
+
+/*Start of my contact page*/
+.contact-a{
+    background-color: #565E7C;
+    width: 50%;
+    height: 500px;
+    font-size: 150%;
+    padding-left: 10%;
+    padding-bottom: 20%;
+}
+header div img{
+    background-color: #00242C;
+    position: top;
+}
+
+
+/*End of my contact page*/
